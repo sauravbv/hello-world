@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T05:29:48.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.2.6" etag="5M-fZBOLrEaGjFWIIFhz" type="github"><diagram id="gJJPGs2VK2_4q9_w60SD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T06:20:09.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-AKzzPIBZDPW8u69-tr2" version="17.2.6" type="github">
+  <diagram id="gJJPGs2VK2_4q9_w60SD" name="Page-1">
+    <mxGraphModel dx="1012" dy="1304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="770" y="220" width="370" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="480" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--1" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;test-data-management&lt;br&gt;&lt;br&gt;/test-data-management&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="N3nrQvBV8vnrWF1qP4O--1" target="N3nrQvBV8vnrWF1qP4O--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="420" as="sourcePoint" />
+            <mxPoint x="520" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--6" value="database-tables-manual&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;/data-tables-manual" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="880" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="N3nrQvBV8vnrWF1qP4O--1" target="N3nrQvBV8vnrWF1qP4O--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375.7789473684211" y="220.0000000000001" as="sourcePoint" />
+            <mxPoint x="209.96000000000004" y="290.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="N3nrQvBV8vnrWF1qP4O--1" target="N3nrQvBV8vnrWF1qP4O--6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479.9973684210527" y="210.0000000000001" as="sourcePoint" />
+            <mxPoint x="491.05000000000024" y="280.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--14" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Common components&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;data-table (includes search, filters, sorting)&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;tables-listing (inlcudes search, dropdown, create dialog)&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;mappings-table (ag-grid or mat-table with color themes)&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1480" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--18" value="" style="group;fontSize=13;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="55" y="292.5" width="450" height="317.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--2" value="database-source&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;/data-source" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--18">
+          <mxGeometry x="21.875" width="153.125" height="56.86567164179104" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--9" value="database-connection&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;Dialog&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--18">
+          <mxGeometry x="195" y="27.5" width="165" height="71.08" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--12" value="database-connections-listing" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--18">
+          <mxGeometry y="184.81791044776116" width="153.125" height="66.34328358208955" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--15" value="right side will be plain html in &quot;database-connections&quot; component, tabs, data-table component to be used to show response data" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--18">
+          <mxGeometry x="162.2" y="150" width="287.8" height="127.22" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="840" width="460" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--22">
+          <mxGeometry width="460" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--5" value="database-tables-api&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;/data-tables-api" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--22">
+          <mxGeometry x="135" y="32.15686274509804" width="190" height="48.23529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--20" value="tables-listing (common component)" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--22">
+          <mxGeometry x="10" y="150.73529411764707" width="175" height="80.3921568627451" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--21" value="right side will be plain html and ts integration with use of mappings-table, codemirror and tabs&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="N3nrQvBV8vnrWF1qP4O--22">
+          <mxGeometry x="100" y="249.2156862745098" width="330" height="136.66666666666669" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--24" value="tables-listing (common component)" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="780" y="370" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--25" value="data-table (common component)" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="870" y="490" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--26" value="tdm-header" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3nrQvBV8vnrWF1qP4O--27" value="&lt;font style=&quot;font-size: 18px&quot;&gt;NO BOOTSTRAP MODALS, we should use resuable dialogs&lt;br&gt;Use ngrx store for all data sharing and state management.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1515" width="500" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
